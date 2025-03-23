@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-p@as403(2%piud0%2&373v-^q(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["https://tds-solver-theta.vercel.app/", "127.0.0.1", "localhost"]
 
 
 # Application definition
